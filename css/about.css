@@ -1,0 +1,101 @@
+.about {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.about p {
+  font-size: 16px;
+  color: #666;
+}
+
+.vision-mission {
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.vision-mission h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.vision-mission .vision,
+.vision-mission .mission {
+  margin-bottom: 20px;
+}
+
+.vision-mission h3 {
+  font-size: 22px;
+  color: #333;
+}
+
+.vision-mission p {
+  font-size: 16px;
+  color: #666;
+}
+
+.location {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.location h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.location p {
+  font-size: 16px;
+  color: #666;
+}
+
+.location ul {
+  list-style: none;
+  padding: 0;
+}
+
+.location ul li {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Services Section */
+.services {
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.services h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services ul li {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.clear {
+  padding-bottom: 1px;
+}
