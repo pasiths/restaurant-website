@@ -5,6 +5,13 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 768px) {
+  .about, .vision-mission, .location, .services {
+    padding: 15px;
+    margin: 15px 0;
+  }
+}
+
 .about h2 {
   font-size: 28px;
   color: #333;

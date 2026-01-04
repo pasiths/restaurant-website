@@ -9,13 +9,15 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.food-image img {
-    max-width: 100%;
-    border-radius: 10px;
-}
+@media (max-width: 768px) {
+  .food-details {
+    flex-direction: column;
+    gap: 20px;
+  }
 
-.food-info {
-    max-width: 500px;
+  .food-info {
+    max-width: 100%;
+  }
 }
 
 .food-info h2 {
