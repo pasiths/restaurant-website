@@ -18,13 +18,19 @@
 }
 
 .gallery-item {
-  width: 500px;
+  width: calc(50% - 20px);
   height: 300px;
   overflow: hidden;
   padding: 10px;
   box-sizing: border-box;
   border: 2px solid #ddd;
   background-color: #f8f8f8;
+}
+
+@media (max-width: 768px) {
+  .gallery-item {
+    width: calc(100% - 20px);
+  }
 }
 
 .gallery-item img {
@@ -50,6 +56,18 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 20px;
+  overflow-x: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 8px 5px;
+  }
 }
 
 thead th {
